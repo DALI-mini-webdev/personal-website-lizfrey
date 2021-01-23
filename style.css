@@ -4,9 +4,15 @@ body{
     background-color:#DBD4C5;
 }
 h1{
-    font-weight: bold;
+    font-weight: 900;
     text-align: center;
 } 
+h2{
+    font-weight: 700;
+}
+p{
+    font-family: Garamond, sans-serif;
+}
 
 a.imgLink{
     color: #1F1C1A; 
@@ -14,6 +20,15 @@ a.imgLink{
 }
 
 div.sections{
+    width: 80% - 10px;
+    height: auto;
+    border: 5px solid #7A4F43;
+    background-color: #E3917D;
+    padding: 20px;
+    margin: 20px;
+}
+
+div.sectionsNoLink{
     width: 80% - 10px;
     height: auto;
     border: 5px solid #7A4F43;
