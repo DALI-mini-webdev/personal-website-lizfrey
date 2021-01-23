@@ -1,0 +1,28 @@
+body{
+    font-family: Garamond, serif;
+}
+h1{
+    font-weight: bold;
+}
+div.gallery {
+    margin: 5px;
+    border: 1px solid rgb(90, 48, 48);
+    float: left;
+    width: 180px;
+  }
+  
+  div.gallery:hover {
+    border: 1px solid rgb(100, 90, 90);
+    width: 50%;
+  }
+  
+  div.gallery img {
+    width: 100%;
+    height: auto;
+  }
+  
+  div.description {
+    padding: 15px;
+    text-align: center;
+
+  }
